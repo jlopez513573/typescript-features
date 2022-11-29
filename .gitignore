@@ -1,0 +1,8 @@
+node_modules
+build
+test-report
+.eslintcache
+.env
+test-report
+coverage
+.nyc_output

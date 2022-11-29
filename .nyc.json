@@ -1,0 +1,17 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "check-coverage": true,
+  "all": true,
+  "extension": [
+    ".ts",
+    ".tsx"
+  ],
+  "exclude": [
+    "**/*.d.ts",
+    "src/calculationEngine/calculateAssets",
+    "src/utils/mockData.ts"
+  ],
+  "reporter": [
+    "html"
+  ]
+}
